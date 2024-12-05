@@ -1,9 +1,49 @@
-
 html, body {
     margin: 0; 
     padding: 0; 
-    background-color:  linear-gradient(#0172B2, #001645);
-
-   
-
+    background: linear-gradient(to bottom, #0172B2, #001645); /* Added direction */
+    height: 100%; /* Ensure the gradient covers the entire viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
+ 
+h1{
+    text-align: center;
+    font-family: "Lobster";
+    color: white;
+    font-size: 44px;
+    font-weight: lighter;
+}
+
+p{
+    text-align: center;
+    font-family: "Lobster";
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+a.button-link {
+    margin: 0 auto; 
+    text-decoration: none; /* Removes the default underline from links */
+  }
+  
+  button {
+    background: linear-gradient(to right, #0172B2, #001645);
+    color: white; /* Text color */
+    padding: 20px;
+    border: none; /* Remove button border */
+    border-radius: 20px; /* Rounded corners */
+    margin: 0 auto; 
+    font-size: 20px;
+    font-family: "Lobster";
+
+  }
+  
+  button:active {
+ 
+    color: #001645;
+  }
+  
