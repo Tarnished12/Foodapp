@@ -1,0 +1,146 @@
+
+html, body {
+    margin: 0; 
+    padding: 0; 
+    background-color: transparent;
+
+   
+
+}
+header{
+   
+    background: transparent;
+    
+
+}
+
+  nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    background: #1E1E2E;
+    border-radius: 0 0 26px 26px; 
+    padding: 20px; 
+    color: white; 
+    box-sizing: border-box; 
+    margin: 0;
+    
+    
+}
+
+nav h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Sen" ;
+}
+
+
+nav h3{
+    font-size: 18px; 
+    font-family: "Sen"
+ 
+}
+
+.login{
+    background-color: transparent;  
+    margin-bottom: 20px; 
+    font-family: "Sen"
+ }
+ 
+ #login-form{
+     display: flex;
+     flex-direction: column;
+     gap: 15px; 
+     margin-top: 20px;
+     font-family: "Sen" 
+     
+ }
+ 
+ .input, #name, #email, #pass, #rpass {
+    display: block;
+    width: 90%;  
+    border-radius: 10px;
+    border-color: transparent;
+    height: 50px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: rgb(231, 222, 222);
+    font-family: "Sen" 
+    
+}
+
+#login-form label {  
+    font-size: 15px;  
+    text-align: start;
+    margin-left: 20px;  
+}
+ 
+
+#login-form #btn1 {
+    margin: 10px auto; 
+    width: 90%;
+    height: 60px;
+    border-radius: 10px;
+    border: none; 
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Sen", sans-serif;
+    cursor: pointer; 
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+#login-form #btn1:active{
+    background-color: white;
+    color: orangered;
+
+}
+
+
+#login-form p, #login-form a {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#login-form a{
+    color: orangered;
+    text-decoration: none;
+    font-weight: bold; 
+    font-size: large;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    gap: 20px; 
+    width: 100%;  
+     
+
+}
+
+.foot .p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
+.foot .a{
+    
+    margin: 0 auto; 
+    margin-top: 0px; 
+}
+
