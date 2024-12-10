@@ -1,0 +1,107 @@
+
+html, body {
+    background-color: transparent;
+    
+
+   
+
+}
+header{
+    background: transparent;
+}
+
+header h1{
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 500;  
+    padding: 0px 0px 0px 20px;
+}
+
+
+header p{
+    font-family: "Inter";
+    font-size: 20px;
+    color: #888888;
+    padding: 0px 0px 0px  20px;  
+}
+
+header .icon{
+    position: absolute;
+    top: 20px;   
+    left: 320px;     
+    border-radius: 30px; 
+}
+
+.searchbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchbar input{
+    width: 90%;
+    height: 50px; 
+    border-radius: 20px; 
+    border: 1px  solid #888888 ;  
+
+}
+
+
+    .searchbar input::placeholder {
+        font-family: "Roboto";
+        font-size: 16px; 
+        color: #aaa; 
+        padding: 10px 10px 10px 20px; 
+    }
+
+    .pop{
+     display: flex;
+    justify-content: space-between; /* This will push h1 to the left and p to the right */
+    align-items: center; 
+   
+    }
+    
+    .pop h1 {
+        font-family: "Poppins";
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 10px; 
+    }
+    
+    .pop p {
+        font-family: "Roboto";
+        font-weight: bold;
+        font-size: 16px;
+        color: #888888;
+        margin-right: 20px; 
+    }
+    
+    
+    .threebtn{
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: center;
+         gap: 30px;
+         color: transparent;
+        
+    }
+
+    .threebtn button{
+             width: 135px;
+             height: 54px;
+             border-radius: 20px;
+             border-color: transparent;
+             background-color: transparent;
+             font-family: "Roboto";
+            font-weight: bold;
+            font-size: 16px;
+            color: #888888;
+    }
+
+    .threebtn button:active{
+        background-color: #333;
+        color: white;
+    }
+
+    
