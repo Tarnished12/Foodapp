@@ -203,9 +203,12 @@ header .icon{
 
     .foot {
         display: flex;
-        justify-content: center;
-        align-content: flex-end; 
-        padding: 20px;
+        justify-content: center; 
+        align-content: center; 
+        position:static;
+        margin-top: 50px; 
+        
+        
         
     }
     
@@ -215,6 +218,7 @@ header .icon{
         gap: 20px; /* Space between items */
         padding: 0;
         margin: 0;
+        text-decoration: none;
     }
     
     .foot ul li {
@@ -225,7 +229,7 @@ header .icon{
         border-radius: 5px;
         background: #fff;
         transition: background-color 0.3s ease, color 0.3s ease;
-    }
+            }
     
     .foot ul li:hover {
         background-color: #333;
